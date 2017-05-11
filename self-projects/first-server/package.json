@@ -1,0 +1,22 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "description": "My first ever server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgeural/learing-node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Jorge Urosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgeural/learing-node/issues"
+  },
+  "homepage": "https://github.com/Jorgeural/learing-node#readme"
+}
