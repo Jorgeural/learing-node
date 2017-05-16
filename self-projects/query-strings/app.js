@@ -15,7 +15,7 @@ app.get("/", function(req, res){
 
 //you can access the query string using req.query (query string is the url followed ?dept=Marketing&person=Jorge) it will generate an object {dept: "marketing", person: "Jorge"}
 app.get("/contact", function(req, res){
-  res.render("contact");
+  res.render("contact",{qs: req.query});
 });
 
 //pass a parameter (name) access it using req.params
