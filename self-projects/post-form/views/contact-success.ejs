@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <!--- This includes a partial template -->
+    <% include partials/nav.ejs %>
+    <h1>Contact</h1>
+    <p>Contact me!</p>
+    <p>Thank you for contact <%= data.who %> from the <%= data.dept %> department</p>
+    <p>We will contact you as soon as possible in this email: <%= data.email %></p>
+  </body>
+</html>
